@@ -119,6 +119,9 @@
   .tag.new { background: var(--new); color: var(--new-ink); font-weight: 600; }
   .tag.closed { background: var(--closed); color: #fff; }
   .tag.salary { background: var(--accent); color: var(--accent-ink); }
+  .tag.ok { background: var(--accent); color: var(--accent-ink); }
+  .tag.no { background: var(--closed); color: #fff; }
+  .tramo-note { font-size: 12px; color: var(--ink-3); margin: 6px 0 0; }
   .tag.deadline.urgent { background: var(--closed); color: #fff; font-weight: 600; }
   .job .note { grid-column: 1 / -1; font-size: 13.5px; color: var(--ink-2); margin: 2px 0 0; border-top: 1px dashed var(--line); padding-top: 8px; }
   .job .src { grid-column: 1 / -1; font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--ink-3); }
@@ -279,7 +282,20 @@
         <option value="title_asc">Cargo (A-Z)</option>
       </select>
     </div>
+    <div class="sortbar" id="tramobar">
+      <label class="lbl" for="tramosel">Mi tramo docente</label>
+      <select id="tramosel">
+        <option value="">Sin indicar</option>
+        <option value="acceso">Acceso</option>
+        <option value="inicial">Inicial</option>
+        <option value="temprano">Temprano</option>
+        <option value="avanzado">Avanzado</option>
+        <option value="experto-1">Experto I</option>
+        <option value="experto-2">Experto II</option>
+      </select>
+    </div>
   </div>
+  <p class="tramo-note">El tramo de la Carrera Docente se guarda solo en este navegador. Con él, cada oferta que exige un tramo mínimo indica si lo cumples.</p>
 
   <div id="content"></div>
   <nav class="pager" id="pager" hidden></nav>
@@ -303,6 +319,18 @@ function boot(data) {
   var PAGE_SIZE = 20;
 
   var SECTOR = { 'directivo': 'Dirección', 'tecnico-pedagogico': 'UTP', 'inspectoria-convivencia': 'Inspectoría y convivencia', 'docencia': 'Docencia', 'otro': 'Otro' };
+  var TRAMO = { 'acceso': 'Acceso', 'inicial': 'Inicial', 'temprano': 'Temprano', 'avanzado': 'Avanzado', 'experto-1': 'Experto I', 'experto-2': 'Experto II' };
+  var TRAMO_ORDER = ['acceso', 'inicial', 'temprano', 'avanzado', 'experto-1', 'experto-2'];
+  var miTramo = '';
+  try { miTramo = localStorage.getItem('aula-tramo') || ''; } catch (e) {}
+  if (!TRAMO[miTramo]) miTramo = '';
+  function tramoTag(j) {
+    if (!j.tramo_minimo || !TRAMO[j.tramo_minimo]) return '';
+    var label = 'Exige tramo ' + TRAMO[j.tramo_minimo];
+    if (!miTramo) return '<span class="tag">' + esc(label) + '</span>';
+    var ok = TRAMO_ORDER.indexOf(miTramo) >= TRAMO_ORDER.indexOf(j.tramo_minimo);
+    return '<span class="tag ' + (ok ? 'ok' : 'no') + '">' + esc(label) + (ok ? ' · lo cumples' : ' · no lo cumples') + '</span>';
+  }
   var DEPENDENCIA = { 'publico': 'Público', 'subvencionado': 'Particular subvencionado', 'pagado': 'Particular pagado' };
   var SECTOR_ORDER = ['directivo', 'inspectoria-convivencia', 'tecnico-pedagogico', 'docencia', 'otro'];
   var REGION_ORDER = ['Arica y Parinacota', 'Tarapacá', 'Antofagasta', 'Atacama', 'Coquimbo', 'Valparaíso', 'Metropolitana', "O'Higgins", 'Maule', 'Ñuble', 'Biobío', 'La Araucanía', 'Los Ríos', 'Los Lagos', 'Aysén', 'Magallanes'];
@@ -553,6 +581,7 @@ function boot(data) {
     if (j.sector && SECTOR[j.sector]) tags += '<span class="tag">' + esc(SECTOR[j.sector]) + '</span>';
     if (j.dependencia && DEPENDENCIA[j.dependencia]) tags += '<span class="tag">' + esc(DEPENDENCIA[j.dependencia]) + '</span>';
     if (j.salary) tags += '<span class="tag salary">' + esc(j.salary) + '</span>';
+    tags += tramoTag(j);
     tags += deadlineTag(j);
     var title = j.url ? '<a href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + '</a>' : esc(j.title);
     var metaParts = [j.company, j.location || j.region];
@@ -578,6 +607,16 @@ function boot(data) {
       render();
     });
   });
+
+  var tramoSel = document.getElementById('tramosel');
+  if (tramoSel) {
+    tramoSel.value = miTramo;
+    tramoSel.addEventListener('change', function () {
+      miTramo = tramoSel.value;
+      try { localStorage.setItem('aula-tramo', miTramo); } catch (e) {}
+      render();
+    });
+  }
 
   var sortSel = document.getElementById('sortsel');
   if (sortSel) {
