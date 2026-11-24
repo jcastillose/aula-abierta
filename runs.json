@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-24 17:12",
+  "updated": "2026-11-24 18:49",
   "runs": [
+    {
+      "date": "2026-11-24",
+      "found": 16,
+      "new": 11,
+      "closed": 0,
+      "note": "Navegador: Claude in Chrome (una sola pestaña de trabajo, sin selección de navegador necesaria). Archivos de estado leídos del conector de GitHub y de la copia publicada para merge.py. Re-verificadas las 5 ofertas vigentes en Chiletrabajos (abren; expiran 28-11-2026, 04-01-2027 y 25-01-2027; la de Viña del Mar ahora declara expiración 04-01-2027). Fuente nueva y productiva: Directores para Chile (https://www.directoresparachile.cl/pub/convocatorias/convocatorias.aspx), con 90 convocatorias abiertas en el país y 40 en las tres regiones (25 Metropolitana, 7 Valparaíso, 8 O'Higgins); se registran agrupadas por sostenedor porque las bases (PDF) solo se pudieron abrir de una (República de México) y sus requisitos legales no se leyeron completos: quedan como requisito por confirmar. Excluida la Escuela de Educación Diferencial de Lo Barnechea. Funcionó: LinkedIn (cuatro consultas: director colegio, jefe UTP, inspector general colegio; la URL se redirige a /jobs/search-results/ con cabecera Chile y sin filtros agregados; solo apareció la oferta de director en Colchagua de consultora, ya descartada por empleador confidencial y 3 años de experiencia), Empleos Públicos (buscador abre, pero sin resultados para 'director escuela'; no se alcanzó a revisar SLEP desde ahí), WebSearch estándar (2 consultas de concursos: solo devuelve PDFs del Diario Oficial y fichas de Servicio Civil). No se alcanzaron Laborum, Computrabajo, Indeed ni sitios de redes de colegios en esta ejecución. Pendiente para próximas ejecuciones: abrir las bases de cada concurso y desglosar por establecimiento."
+    },
     {
       "date": "2026-11-24",
       "found": 5,
