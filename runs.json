@@ -1,4 +1,12 @@
 {
-  "updated": "2026-11-24 00:00",
-  "runs": []
+  "updated": "2026-11-24 15:57",
+  "runs": [
+    {
+      "date": "2026-11-24",
+      "found": 4,
+      "new": 4,
+      "closed": 0,
+      "note": "Navegador: Claude in Chrome no usable (dos navegadores conectados sin selección posible en ejecución autónoma); se usó el navegador integrado. Estado previo vacío, sin re-verificación. Funcionó: Chiletrabajos (fichas por URL directa abren bien, ofertas vigentes con fecha de expiración; su buscador interno devolvió resultados irrelevantes), Computrabajo (listado con JS de a[href*='ofertas-de-trabajo/'] funciona; una URL larga dio error 400). Falló: Laborum (director-de-colegio devolvió 'No encontramos lo que estás buscando'). No se alcanzaron LinkedIn, Indeed, Empleos Públicos, Servicio Civil ni sitios de SLEP. WebSearch estándar (7 consultas cruzando cargo y región) devolvió sobre todo enlaces a Chiletrabajos y diarios oficiales. Fichas abiertas: Chiletrabajos 8, Computrabajo 1, otras 1. Descartes: aviso de colegio subvencionado de Quilicura sin establecimiento identificable; encargado de convivencia de Curacaví sin establecimiento identificable y con 4 años de experiencia exigidos; UTP de Santiago Centro de 'importante empresa del sector' sin establecimiento; profesor de Historia PAES (preuniversitario); jefe de humanidades de Providencia, inspector general de Valparaíso y UTP de Curicó, todos expirados; jefe UTP de Lo Errázuriz en CazVid verificado hace 3 años."
+    }
+  ]
 }
