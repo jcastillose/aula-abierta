@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-24 15:57",
+  "updated": "2026-11-24 17:12",
   "runs": [
+    {
+      "date": "2026-11-24",
+      "found": 5,
+      "new": 1,
+      "closed": 0,
+      "note": "Navegador: Claude in Chrome no usable (dos navegadores conectados sin selección posible en ejecución autónoma); se usó el navegador integrado. Archivos de estado leídos del conector de GitHub y comprobados contra la copia publicada. Re-verificadas 4 ofertas (Chiletrabajos 3890280 y 3930181 abren y siguen vigentes, expiran 28-11-2026 y 25-01-2027). Funcionó: Chiletrabajos (fichas por URL directa con fetch desde la propia página, 20 fichas leídas), Computrabajo (listados /trabajo-de-<consulta> con fetch y DOM: director-de-colegio, jefe-de-utp, inspector-general, encargado-de-convivencia-escolar, profesor-de-historia, coordinador-academico; solo traen resultados útiles de colegios anónimos), WebSearch estándar (6 consultas cruzando cargo y región: devuelve sobre todo fichas de Chiletrabajos, Jooble, Diario Oficial y Servicio Civil con avisos antiguos). No se alcanzaron LinkedIn, Laborum (falló en la ejecución anterior), Indeed, Empleos Públicos ni sitios de SLEP. Descartes: director en Rancagua (empleador confidencial y 3 años de experiencia exigidos), director en Valparaíso 3888896 (empleador sin identificar, pide 3 a 5 años en cargos directivos), director de Quilicura (sin establecimiento y 3 años como director), director y UTP de Santiago Centro en Computrabajo ('importante empresa del sector', UTP pide tramo avanzado y experiencia previa como UTP), UTP de La Reina (sin establecimiento identificable), director y subdirector de Curicó y rector de Los Ángeles (fuera de las tres regiones), inspector general de Valparaíso y de Quilpué, jefe de UTP de Santiago, orientador, coordinador de convivencia de Renca y psicólogo de Lampa (vencidos o fuera de cargo), co-docente de formación general en Lo Espejo (reemplazo de otra asignatura)."
+    },
     {
       "date": "2026-11-24",
       "found": 4,
