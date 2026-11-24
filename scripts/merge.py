@@ -19,9 +19,10 @@ from zoneinfo import ZoneInfo
 
 SECTORS = ["directivo", "inspectoria-convivencia", "tecnico-pedagogico", "docencia", "otro"]
 DEPS = ["publico", "subvencionado", "pagado"]
+TRAMOS = [None, "acceso", "inicial", "temprano", "avanzado", "experto-1", "experto-2"]
 REGIONS = ["Metropolitana", "Valparaíso", "O'Higgins"]
 FIELDS = ["title", "company", "location", "region", "sector", "dependencia", "salary",
-          "source", "url", "published_date", "deadline", "note"]
+          "source", "url", "published_date", "deadline", "tramo_minimo", "note"]
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
@@ -32,6 +33,9 @@ def slug(*parts):
 
 
 def check(job):
+    job.setdefault("tramo_minimo", None)
+    if job["tramo_minimo"] not in TRAMOS:
+        sys.exit(f"tramo_minimo inválido: {job['tramo_minimo']}")
     for f in FIELDS:
         if f not in job:
             sys.exit(f"Falta el campo {f} en: {job.get('title')}")
