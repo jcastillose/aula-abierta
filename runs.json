@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-24 18:49",
+  "updated": "2026-11-25 07:19",
   "runs": [
+    {
+      "date": "2026-11-25",
+      "found": 16,
+      "new": 0,
+      "closed": 0,
+      "note": "Navegador: Chrome externo (Claude in Chrome) no conectado tras dos intentos; no se abrió Chrome con open -a. Se usó el navegador integrado de la app. Re-verificadas las 16 ofertas vigentes: las 5 de Chiletrabajos abren y siguen activas (Maipú expira 28-11, Viña del Mar 04-01-2027, Talagante 25-01-2027); las 11 de Directores para Chile (https://www.directoresparachile.cl/pub/convocatorias/convocatorias.aspx, 97 convocatorias abiertas en el país) siguen listadas con los mismos plazos y número de concursos por sostenedor. El PDF de bases de SLEP Santiago Centro devuelve 403 desde la nube (no se reabrió). Sin convocatorias nuevas en las tres regiones en Directores para Chile (las nuevas del día son de Tomé, Valle Diguillín, Llanquihue, Punilla Cordillera, Huasco, Collipulli, Galvarino, Valdivia, etc., fuera de alcance). Falló: LinkedIn (el navegador integrado redirige a authwall de registro; no se puede iniciar sesión). Empleos Públicos funcionó (buscador por cargo 'director' devuelve 9 resultados, ninguno escolar: biblioteca, museos, CFT). WebSearch estándar (6 consultas: concursos director/UTP SLEP, inspector general, convivencia, profesor historia, coordinador académico) devolvió sobre todo PDFs del Diario Oficial y fichas de Chiletrabajos. Fichas abiertas en Chiletrabajos: 12. Descartadas: encargado de convivencia en colegio subvencionado de Lampa (establecimiento sin nombre y título del aviso pide psicólogo/a o asistente social); coordinadora de convivencia de Independencia, convivencia de Renca y Maipú, reemplazo de historia en Playa Ancha, coordinador y subdirector de Curicó (todos vencidos o desactivados, y Curicó fuera de región); profesor de historia PAES de preuniversitario (excluido); coordinador de matemáticas en Chicureo (otra asignatura). No se revisaron Laborum, Computrabajo, Indeed ni redes de colegios por tiempo."
+    },
     {
       "date": "2026-11-24",
       "found": 16,
