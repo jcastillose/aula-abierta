@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-25 07:19",
+  "updated": "2026-11-26 07:21",
   "runs": [
+    {
+      "date": "2026-11-26",
+      "found": 16,
+      "new": 0,
+      "closed": 0,
+      "note": "Navegador: Claude in Chrome (una pestaña propia, cerrada al terminar). Archivos de estado leídos del conector de GitHub y comprobados contra la copia publicada. Re-verificadas las 16 ofertas vigentes: las 3 fichas de Chiletrabajos (3890280 expira 28-11-2026, 3884360 expira 04-01-2027, 3930181 expira 25-01-2027) abren y siguen activas; las 11 de Directores para Chile (https://www.directoresparachile.cl/pub/convocatorias/convocatorias.aspx, 97 convocatorias abiertas en el país; 25 Metropolitana, 7 Valparaíso, 8 O'Higgins, iguales a ayer) siguen listadas con los mismos plazos. Sin convocatorias nuevas en las tres regiones en Directores para Chile (las nuevas son de Tomé, Valle Diguillín, Llanquihue, Punilla Cordillera, Huasco, etc., fuera de alcance). Funcionó: LinkedIn (6 consultas: director colegio, inspector general, jefe UTP, encargado convivencia escolar, profesor historia, coordinador académico colegio; solo apareció el director de Colchagua de consultora, ya descartado por empleador confidencial y 3 años de experiencia), Computrabajo (director-de-colegio, inspector-general, jefe-de-utp, convivencia-escolar, profesor-de-historia: solo avisos anónimos como 'Importante empresa del sector'), Indeed (jefe utp/director colegio/inspector general en Santiago: sin cargos escolares útiles; 'Inspector/a Colegio' de la Sociedad de Instrucción Primaria es inspector de pasillo, excluido), WebSearch estándar (4 consultas, devuelve sobre todo fichas de Chiletrabajos y Diario Oficial). Falló: Laborum (la página no entrega texto legible para jefe-de-utp ni director-de-colegio; profesor-de-historia solo mostró un liceo francés de Concepción, fuera de región); Empleos Públicos (el portal solo muestra la primera convocatoria, una de salud). No se revisaron sitios de SLEP ni redes de colegios por tiempo. Fichas abiertas en Chiletrabajos: 9. Descartadas: Colegio de Maipú 'todas las áreas 2027' (desactivado); inspector de patio de Valparaíso y Santiago (excluido); cuidador nocturno de Puchuncaví; relator de curso de inspector educacional (OTEC, capacitación); reemplazo de historia en Santiago (desactivado); director de colegio en Computrabajo sin establecimiento identificable; coordinador del equipo docente en La Florida (aviso de consultora sin establecimiento)."
+    },
     {
       "date": "2026-11-25",
       "found": 16,
