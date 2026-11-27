@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-26 07:21",
+  "updated": "2026-11-27 07:21",
   "runs": [
+    {
+      "date": "2026-11-27",
+      "found": 17,
+      "new": 1,
+      "closed": 0,
+      "note": "Navegador: Claude in Chrome (una pestaña propia, cerrada al terminar). Estado leído del conector de GitHub y comprobado contra la copia publicada. Re-verificadas las 16 ofertas vigentes: las 3 fichas de Chiletrabajos abren y siguen activas (3890280 expira 28-11-2026, en 1 día; 3884360 expira 04-01-2027; 3930181 expira 25-01-2027); las 11 de Directores para Chile (98 convocatorias abiertas en el país) siguen listadas con los mismos plazos; el concurso de SLEP Santa Corina vence hoy 27-11-2026. Sin convocatorias nuevas en las tres regiones en Directores para Chile (las nuevas son de Tamarugal, Tomé y otras fuera de alcance). Funcionó: LinkedIn (6 consultas: director colegio, inspector general, jefe UTP, encargado convivencia escolar, profesor historia, coordinador académico colegio; solo apareció la convocatoria docente de Quinta Normal, incorporada; el director de Colchagua de consultora sigue descartado por empleador confidencial), WebSearch estándar (6 consultas: devuelve sobre todo Diario Oficial, Servicio Civil, Jooble y fichas de Chiletrabajos). Chiletrabajos: 14 fichas abiertas. Falló o no se revisó: Computrabajo, Laborum, Indeed, Empleos Públicos y sitios de SLEP o redes de colegios (por tiempo; una llamada por lote al navegador falló por formato). Descartadas: encargado de convivencia de colegio de Lampa (pide psicólogo/a o asistente social), coordinador de convivencia de Renca (desactivado), director de colegio subvencionado de Santiago 3914109 y director de Rancagua 3922434 (sin establecimiento identificable, empleador confidencial), coordinador de matemáticas (otra asignatura), subdirector y coordinador de Curicó (fuera de región), profesor general básico y educación física de reemplazo en Valparaíso (otras asignaturas), práctica profesional de admisiones, directores y coordinadores de universidades y carreras en LinkedIn, coordinador PIE de Cerrillos (educación diferencial)."
+    },
     {
       "date": "2026-11-26",
       "found": 16,
