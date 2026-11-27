@@ -1,7 +1,26 @@
 {
-  "updated": "2026-11-26 07:21",
+  "updated": "2026-11-27 07:21",
   "profile": "Profesor de Historia, Geografía y Ciencias Sociales y Licenciado en Educación (PUCV), Magíster en Liderazgo y Gestión de Organizaciones Escolares (PUCV, 2023) y Diplomado en Liderazgo en Aprendizaje Profundo (U. de Chile). Más de 15 años de docencia de 5° básico a 4° medio en establecimientos públicos, subvencionados y particulares, con experiencia como jefe de departamento, coordinador de formación ciudadana en equipo de convivencia, profesor jefe y representante docente ante el consejo escolar. Reside en Santiago.",
   "jobs": [
+    {
+      "id": "colegio-quinta-normal-publicado-por-municipalidad-de-quinta-normal-planta-docente-2027-profesores-de-todas-las-asignaturas-quinta-normal",
+      "title": "Planta Docente 2027 (profesores de todas las asignaturas)",
+      "company": "Colegio Quinta Normal (publicado por Municipalidad de Quinta Normal)",
+      "location": "Quinta Normal",
+      "region": "Metropolitana",
+      "sector": "docencia",
+      "dependencia": "subvencionado",
+      "salary": null,
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4495554108/",
+      "published_date": null,
+      "deadline": null,
+      "tramo_minimo": null,
+      "note": "Convocatoria general para el año escolar 2027 dirigida a profesores de todas las asignaturas, no específica de Historia: confirmar si hay horas en el área. Colegio particular subvencionado adscrito a Carrera Docente, en Quinta Normal. Postulación por correo con currículum; sin horas ni contrato informados. La publicación figura a nombre de la municipalidad, aunque el texto describe un colegio subvencionado: requisito por confirmar. No consta tramo mínimo.",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "status": "new"
+    },
     {
       "id": "colegio-maipu-director-a-convocatoria-equipo-directivo-2027-santiago",
       "title": "Director/a (convocatoria equipo directivo 2027)",
@@ -18,7 +37,7 @@
       "tramo_minimo": null,
       "note": "Cargo de ascenso. Aviso conjunto para Director/a, Jefe/a UTP y Encargado/a de Convivencia, año escolar 2027, jornada completa, contrato fijo. Establecimiento del sector poniente; la comuna exacta y la dependencia no constan en el aviso (ubicación publicada: Santiago). Plazo de la fuente: expira 28-11-2026.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -37,7 +56,7 @@
       "tramo_minimo": null,
       "note": "Cargo de ascenso. Jornada completa, contrato indefinido. Pide título docente, experiencia comprobable en cargos directivos, dominio de políticas públicas educacionales y Magíster en Currículum y Evaluación: requisito por confirmar (su magíster es en Liderazgo y Gestión). Exige informar tramo vigente y bienios de Carrera Docente y pretensión de renta. Viña del Mar exige traslado diario o cambio de residencia. Advertencia: las bases fijan postulación del 17-08 al 13-09, pero el portal mantiene el aviso activo hasta el 04-01-2027; confirmar con el colegio si sigue abierto.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -56,7 +75,7 @@
       "tramo_minimo": null,
       "note": "Concursos para Escuela Básica República de México (bases abiertas: 44 horas, jornada escolar completa), Escuela República del Ecuador, Escuela República de Alemania, Liceo República de Brasil, Escuela Reyes Católicos, Escuela Hogar de Menores y Escuela Centro de Capacitación Laboral. El enlace lleva a las bases de la primera; las demás se ubican por SLE en el portal. Postulación virtual. Fecha de inicio de postulación tomada del portal. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -75,7 +94,7 @@
       "tramo_minimo": null,
       "note": "Escuelas y liceos del SLEP: Liceo Maipú de las Artes y la Tecnología, Escuela Presidente Riesco Errázuriz, Liceo Santiago Bueras y Avaria, Escuela Víctor Jara, Escuela Carlos Condell de la Haza y Escuela Cerrillos. Postulación virtual. Plazo vence el 27-11-2026. Comunas inferidas de los nombres de los establecimientos; filtrar por Comuna/SLE en el portal. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -94,7 +113,7 @@
       "tramo_minimo": null,
       "note": "Escuela Luis Cruz Martínez, Escuela Pedro Aguirre Cerda, Escuela El Manío, Liceo Alberto Blest Gana, Liceo Bicentenario de Francisco Bilbao y Escuela Especial Humberto Aranda Irribarren (esta última es de educación especial). Postulación virtual. La región se deduce del conteo por región del portal; comuna exacta no verificada. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -113,7 +132,7 @@
       "tramo_minimo": null,
       "note": "Colegio San Francisco del Alba y Liceo Simón Bolívar. Postulación presencial o con envío de antecedentes, según el portal. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -132,7 +151,7 @@
       "tramo_minimo": null,
       "note": "Concurso municipal para el Colegio Antártica Chilena. Postulación presencial o con envío de antecedentes, según el portal. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -151,7 +170,7 @@
       "tramo_minimo": null,
       "note": "Comuna rural del poniente de la Región Metropolitana; puede exigir traslado diario largo. Postulación presencial. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -170,7 +189,7 @@
       "tramo_minimo": null,
       "note": "Escuela rural; puede exigir traslado diario largo. Postulación presencial. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -189,7 +208,7 @@
       "tramo_minimo": null,
       "note": "Escuelas Diego Barros Arana, Diego Portales, Manuel Montt, Juan Bautista Alberti, Atenas y Darío Salas. Exige traslado diario o cambio de residencia desde Santiago. Postulación presencial o con envío de antecedentes. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -208,7 +227,7 @@
       "tramo_minimo": null,
       "note": "Exige traslado diario o cambio de residencia desde Santiago. Plazo vence el 03-12-2026. Postulación presencial o con envío de antecedentes. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -227,7 +246,7 @@
       "tramo_minimo": null,
       "note": "Liceo Municipal Juan Pablo II, Escuela La Dehesa, Escuela La Tuna, Complejo Educacional Chimbarongo, Instituto Comercial Alberto Valenzuela Llanos de San Fernando y una escuela municipal sin nombre en el listado. Exige traslado diario o cambio de residencia. Postulación presencial o con envío de antecedentes. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -246,7 +265,7 @@
       "tramo_minimo": null,
       "note": "Escuela Municipal Zúñiga y Escuela El Libertador. Exige traslado diario o cambio de residencia. Aviso marcado 'sin convenio' en el portal: ver bases. Cargo de ascenso (no ha ejercido como director). Requisitos legales de la ley de concursos de directores (título, años de experiencia docente y perfeccionamiento): requisito por confirmar en las bases, que no se pudieron leer completas en esta ejecución. No consta tramo mínimo.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -265,7 +284,7 @@
       "tramo_minimo": null,
       "note": "Mismo aviso que la Dirección. Pide profesional de educación, psicología o trabajo social con especialización o diplomado en el área: requisito por confirmar. Jornada completa, contrato fijo, año 2027. Plazo de la fuente: 28-11-2026.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -284,7 +303,7 @@
       "tramo_minimo": null,
       "note": "Mismo aviso que la Dirección. Pide dominio del currículum vigente y experiencia en coordinación académica (años no especificados: requisito por confirmar). Jornada completa, contrato fijo, año 2027. Plazo de la fuente: 28-11-2026.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     },
     {
@@ -303,7 +322,7 @@
       "tramo_minimo": null,
       "note": "Cargo de ascenso (función equivalente a UTP: currículo, acompañamiento docente, PME). Jornada completa de 44 horas, contrato a plazo fijo y luego indefinido, inicio 1 de marzo de 2027. Pide título de más de 8 semestres, mínimo 3 años de docencia de aula y experiencia en coordinación de equipos educativos. Talagante exige traslado diario desde Santiago. Dependencia inferida de la corporación (SNA Educa), no declarada en el aviso. Plazo de la fuente: expira 25-01-2027.",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "active"
     }
   ]
