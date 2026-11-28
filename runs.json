@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-27 07:21",
+  "updated": "2026-11-28 07:21",
   "runs": [
+    {
+      "date": "2026-11-28",
+      "found": 16,
+      "new": 0,
+      "closed": 1,
+      "note": "Navegador: Claude in Chrome (tres pestañas propias, cerradas al terminar). Estado leído del conector de GitHub; los archivos se bajaron a disco desde la copia publicada (curl) y coinciden con lo leído. Re-verificadas las 17 ofertas: las 3 fichas de Chiletrabajos abren y siguen activas (3890280 expira hoy 28-11-2026; 3884360 expira 04-01-2027; 3930181 expira 25-01-2027); la de LinkedIn de Quinta Normal sigue abierta; las 10 de Directores para Chile siguen listadas con los mismos plazos (79 convocatorias abiertas en el país). El concurso de SLEP Santa Corina ya no figura entre las convocatorias abiertas (plazo vencido el 27-11-2026): se marca cerrado. Sin convocatorias nuevas en las tres regiones en Directores para Chile (las nuevas son de Tamarugal, Tomé, Valle Diguillín, Llanquihue y otras fuera de alcance). Funcionó: LinkedIn (4 consultas: director colegio, encargado convivencia escolar, jefe UTP, inspector general colegio; 0 a 14 resultados, casi todos universitarios o de otras regiones), Chiletrabajos (fichas abiertas: 8), Empleos Públicos (portada: solo una convocatoria de salud), WebSearch estándar (4 consultas: Chiletrabajos, Diario Oficial y Servicio Civil con avisos antiguos). No se revisaron Laborum, Computrabajo, Indeed ni sitios de SLEP o redes de colegios (por tiempo). Descartadas: Director/a de Formación y Bienestar Escolar de colegio particular de RM vía headhunter (exige 7 años en cargos directivos, inglés C1 y magíster en área afín); Director de Ciclo en Viña del Mar vía headhunter (sin establecimiento identificable); director de colegio en Rancagua de consultora (empleador confidencial); rector en Maule y direcciones de carrera universitarias (fuera de alcance); reemplazo de coordinación de innovación pedagógica de red de colegios en Santiago (desactivado, pedía educador diferencial); coordinación de convivencia de Renca (desactivado); psicólogo o asistente social de Lampa (otro perfil); coordinador de matemáticas (otra asignatura)."
+    },
     {
       "date": "2026-11-27",
       "found": 17,
